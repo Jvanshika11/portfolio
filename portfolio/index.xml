@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Initio - Free, multipurpose html5 template by GetTemplate</title>
+    <link>/portfolio/</link>
+    <description>Recent content in Portfolios on Initio - Free, multipurpose html5 template by GetTemplate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Visulaisation</title>
+      <link>/portfolio/dataviz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/portfolio/dataviz/</guid>
+      <description>ABCS</description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>/portfolio/ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/portfolio/ml/</guid>
+      <description>XYZW</description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>/portfolio/data-visulalisation/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/portfolio/data-visulalisation/project1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>/portfolio/data-visulalisation/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/portfolio/data-visulalisation/project2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>/portfolio/data-visulalisation/project3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/portfolio/data-visulalisation/project3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>/portfolio/data-visulalisation/project4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/portfolio/data-visulalisation/project4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>/portfolio/machine-learning/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/portfolio/machine-learning/project1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>/portfolio/machine-learning/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/portfolio/machine-learning/project2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>/portfolio/machine-learning/project3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/portfolio/machine-learning/project3/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
