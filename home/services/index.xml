@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Services on Initio - Free, multipurpose html5 template by GetTemplate</title>
+    <title>What I have to offer? on Initio - Free, multipurpose html5 template by GetTemplate</title>
     <link>/home/services/</link>
-    <description>Recent content in Services on Initio - Free, multipurpose html5 template by GetTemplate</description>
+    <description>Recent content in What I have to offer? on Initio - Free, multipurpose html5 template by GetTemplate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <atom:link href="/home/services/index.xml" rel="self" type="application/rss+xml" />
@@ -20,6 +20,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/home/services/service1/</guid>
       <description>Designing and implementing dashboards and reports for stakeholders to monitor business performance in real-time.</description>
+    </item>
+    <item>
+      <title>What I have to offer?</title>
+      <link>/home/services/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/home/services/services/</guid>
+      <description></description>
     </item>
     <item>
       <title>Data Strategy Consulting</title>

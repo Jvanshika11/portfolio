@@ -1,0 +1,61 @@
+[
+    {
+        "id": 0,
+        "name": "Transformers and Convolutional Networks for Masked Face Recognition",
+        "image": "images/face.jpg",
+        "url": "project7",
+        "github":"https://github.com/shubham777/Ensemble-Learning-using-Transformers-and-Convolutional-Networks-for-Masked-Face-Recognition",
+        "items": [
+            {
+                "name": "CNN",
+                "url": "#"
+            },
+            {
+                "name": "Deep Learning",
+                "url": "#"
+            },
+            {
+                "name": "Ensemble Learning",
+                "url": "#"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Robotic Process Automation",
+        "image": "images/rpa.png",
+        "url": "project8",
+        "github":"https://github.com/shubham777/RPA",
+        "items": [
+            {
+                "name": "Python",
+                "url": "#"
+            },
+            {
+                "name": "Selenium",
+                "url": "#"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Methane Detection",
+        "image": "images/qb.webp",
+        "url": "project9",
+        "github":"https://github.com/shubham777/QB_Tech_Challenge",
+        "items": [
+            {
+                "name": "CNN",
+                "url": "#"
+            },
+            {
+                "name": "Image Segmentation",
+                "url": "#"
+            },
+            {
+                "name": "Flask",
+                "url": "#"
+            }
+        ]
+    }
+]

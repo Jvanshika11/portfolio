@@ -1,100 +1,130 @@
 [
     {
         "id": 0,
-        "name": "Sample title - big data solutions",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Predicting AirBnB Prices in New York",
+        "image": "images/airbnb.png",
+        "url": "project1",
+        "github": "https://github.com/shubham777/Predicting-Airbnb-Prices-in-New-York-City",
         "items": [
             {
-                "name": "Web design",
+                "name": "Machine Learing modelling",
                 "url": "#"
             },
             {
-                "name": "Wordpress",
+                "name": "Data Analysis",
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "Data Transformation",
                 "url": "#"
             }
         ]
     },
     {
         "id": 1,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Global Terrorism Trends Visualization Tool",
+        "image": "images/GTD.png",
+        "url": "project2",
+        "github" : "https://github.com/shubham777/Global-Terrorsim-Dataset-GTD-",
         "items": [
             {
-                "name": "Web design",
+                "name": "Data Viz",
                 "url": "#"
             },
             {
-                "name": "Wordpress",
+                "name": "Bokeh & Panel",
+                "url": "#"
+            },
+            {
+                "name": "Dashboard",
                 "url": "#"
             }
         ]
     },
     {
         "id": 2,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Donation Fundraising Marketing Campaign Analysis",
+        "image": "images/rfm.png",
+        "url": "project3",
+        "github": "https://github.com/shubham777/Donation-fundraising-campaign_analysis_and_revenue-predictions",
         "items": [
             {
-                "name": "Web design",
+                "name": "R",
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "Regression Modelling",
+                "url": "#"
+            },
+            {
+                "name": "Marketing Analysis",
+                "url": "#"
+            },
+            {
+                "name": "SQL",
                 "url": "#"
             }
         ]
     },
     {
         "id": 3,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "US-Stock-Market-Analysis",
+        "image": "images/us.png",
+        "url": "project4",
+        "github": "https://github.com/shubham777/US-Stock-Market-Analysis-using-Network-Graphs",
         "items": [
             {
-                "name": "Web design",
+                "name": "Graph Network Analysis",
                 "url": "#"
             },
             {
-                "name": "Wordpress",
+                "name": "Data Transformation",
+                "url": "#"
+            },
+            {
+                "name": "Financial Analysis",
                 "url": "#"
             }
         ]
     },
     {
         "id": 4,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Actor Co-occurrence Network Link prediction",
+        "image": "images/Graph.png",
+        "url": "project5",
+        "github": "https://github.com/shubham777/Actor_co-occurence-network_Link-prediction",
         "items": [
             {
-                "name": "Web design",
+                "name": "Graph Network Analysis",
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "Machine Learning",
+                "url": "#"
+            },
+            {
+                "name": "Feature Engineering",
                 "url": "#"
             }
         ]
     },
     {
         "id": 5,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Hurricane_harvey_UAV-Image-Segmentation",
+        "image": "images/harvey.jpg",
+        "url": "project6",
+        "github": "https://github.com/shubham777/Hurricane_harvey_UAV-Image-Segmentation/",
         "items": [
             {
-                "name": "Web design",
+                "name": "CNN",
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "Image Segmentation",
+                "url": "#"
+            },
+            {
+                "name": "Deep Learning",
                 "url": "#"
             }
         ]
