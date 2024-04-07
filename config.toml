@@ -1,5 +1,6 @@
-baseURL = "/"
+baseURL = ""
 theme = "hugo-apero"
+publishDir = "docs"
 languageCode = "en"
 title = "Bonjour!"
 author = "Vanshika Jain"
