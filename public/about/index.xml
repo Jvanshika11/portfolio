@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Bonjour!</title>
-    <link>//localhost:4321/about/</link>
+    <link>/about/</link>
     <description>Recent content in About on Bonjour!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="//localhost:4321/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>//localhost:4321/about/header/</link>
+      <link>/about/header/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/about/header/</guid>
+      <guid>/about/header/</guid>
       <description>Welcome to my digital space, where I invite you to delve deeper into who I am.&#xA;As a seasoned professional, I navigate the diverse yet interrelated landscapes of data science, analysis, development, and program management. Armed with a keen eye for detail, curious mind and a knack for problem-solving, I navigate these ever-evolving landscape with precision and purpose to turn code into seamless experiences. From identifying trends and spotting anomalies to designing intuitive interfaces and optimizing backend systems, I thrive on the challenge of transforming data into tangible value.</description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:4321/about/sidebar/</link>
+      <link>/about/sidebar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/about/sidebar/</guid>
+      <guid>/about/sidebar/</guid>
       <description>** index doesn&amp;rsquo;t contain a body, just front matter above. See about/list.html in the layouts folder **</description>
     </item>
     <item>
       <title>When the workday winds down, you&#39;ll find me indulging in my passions and quirks that make me who I am!</title>
-      <link>//localhost:4321/about/main/</link>
+      <link>/about/main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/about/main/</guid>
+      <guid>/about/main/</guid>
       <description>** index doesn&amp;rsquo;t contain a body, just front matter above. See about/list.html in the layouts folder **</description>
     </item>
   </channel>

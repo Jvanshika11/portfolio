@@ -1,6 +1,6 @@
 baseURL = ""
 theme = "hugo-apero"
-publishDir = "docs"
+publishDir = "public"
 languageCode = "en"
 title = "Bonjour!"
 author = "Vanshika Jain"
