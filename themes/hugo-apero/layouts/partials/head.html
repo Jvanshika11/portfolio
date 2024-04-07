@@ -1,0 +1,69 @@
+<head>
+  {{ partial "meta.html" . }}
+  {{ template "_internal/schema.html" . }}
+  {{ template "_internal/google_analytics.html" . }}
+  {{ `<!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->` | safeHTML }}
+  <link rel="shortcut icon" href="{{ .Site.Params.favicon }}" type="image/x-icon">
+  <link rel="icon" href="{{ .Site.Params.favicon }}" type="image/x-icon">
+  {{ range .AlternativeOutputFormats }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end }}
+  {{ $styles := resources.Get "scaffold.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/mail.css' rel='stylesheet'>
+  
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}"  media="screen">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"
+/>
+  <!-- panelset.js -->
+  {{ $panelsetJs := resources.Get "js/panelset.js" | js.Build "panelset.js" | minify | fingerprint }}
+  <script src="{{ $panelsetJs.RelPermalink }}" type="text/javascript"></script>
+  <!-- headroom.js -->
+  {{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | minify | fingerprint }}
+  <script src="{{ $mainJs.RelPermalink }}" type="text/javascript"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<style>
+  .typing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+ .input-cursor {
+      display: inline-block;
+      width: 2px;
+      height: 42px;
+      background-color: white;
+      margin-left: 8px;
+      animation: blink .6s linear infinite alternate;
+}
+
+    .container {
+        display: flex;
+    }
+
+    .first-div, .second-div {
+        padding: 10px; /* Adjust padding as needed */
+    }
+
+    .first-div {
+        flex: 3;
+       
+    }
+
+    .second-div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+</head>

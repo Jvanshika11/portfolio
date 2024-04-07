@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ $page := . }}
+<main class="page-main pa4" role="main" style="padding-bottom:0px; padding-top:0px;">
+
+  <section class="page-content mw9 center">
+    <div class="flex-l items-center" style="{{ if .Params.image_left }}flex-direction: row-reverse;{{ end }}">
+      <div class="mh4 w-50-l {{ if not .Params.text_align_left }}tr{{ end }}">
+        <h1 class="f2 f1-m f-subheadline-l fw5-ns mv4 lh-solid">Vanshika Jain</h1>
+        <h5 class="f-subheadline f4 fw2 ttu tracked"><span class="fi fi-in"></span> Indian National  &
+            French Work Visa Holder <span class="fi fi-fr"></span></h5>
+        <h2 class="f5 fw7 mt0 mb4 ttu tracked">
+          <div class="typing-container">
+    <p class="multipleStrings"></p>
+    
+  </div>
+  </h2>
+        {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
+        {{ with .Params.description }}<p class="f4 mt4 lh-copy" style="text-align: left;">{{ . | markdownify }}</p>{{ end }}
+        {{ if .Params.show_action_link }}<a class="mt4 action {{ .Params.action_type }}" href="{{ .Params.action_link | relURL }}">Know me more...</a>{{ end }}
+      </div>
+      <div class="tr w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}" style="text-align:center;">
+      {{ with .Params.images }}
+        {{ range first 1 . }}<img class="mv0 w-70-m" src="/img/profile-pic.png"/ style="height:30em;">{{ end }}
+      {{ end }}
+      </div>
+    </div>
+  </section>
+  <script>   
+new TypeIt(".multipleStrings", {
+  strings: ["Data Scientist - Analyst - Developer - Program Manager"],
+  breakLines: false,
+  
+  loop: true,
+  speed: 100  
+  
+}).pause(500).go(); 
+</script>
+</main>
+{{ end }}
