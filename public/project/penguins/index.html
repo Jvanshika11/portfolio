@@ -18,7 +18,6 @@ Since I began building websites in Y2K, I&rsquo;ve lost count how many times the
 <meta itemprop="wordCount" content="424"><meta itemprop="image" content="/project/penguins/featured-hex.png" />
 <meta itemprop="keywords" content="hugo-site," />
   
-  
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYMX3MQQXZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -46,6 +45,10 @@ Since I began building websites in Y2K, I&rsquo;ve lost count how many times the
   <script src="/main.min.f0402e413498778714234711135aa6a57c57cf1c8e911e9e17dd12d3a62ff380.js" type="text/javascript"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <style>
   .typing-container {
       display: flex;
@@ -66,26 +69,38 @@ Since I began building websites in Y2K, I&rsquo;ve lost count how many times the
       margin-left: 8px;
       animation: blink .6s linear infinite alternate;
 }
-
     .container {
-        display: flex;
-    }
+  display: flex;
+  flex-wrap: wrap;  
+}
 
-    .first-div, .second-div {
-        padding: 10px;  
-    }
+.first-div, .second-div {
+  padding: 10px;  
+}
 
-    .first-div {
-        flex: 3;
-       
-    }
+ 
+@media only screen and (min-width: 1024px) {  
+  .first-div {
+    flex: 75%;  
+  }
 
-    .second-div {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .second-div {
+    flex: 25%;  
+  }
+}
+
+
+ 
+@media only screen and (max-width: 1023px) {  
+  .first-div, .second-div {
+    flex: 100%;  
+  }
+
+  .second-div img {
+    display: none;  
+  }
+}
+
 </style>
 <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 </head>

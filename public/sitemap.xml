@@ -2,41 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/collection/day02/01-netlify/</loc>
+    <loc>/collection/day03/01-netlify/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/spoonful-series/01-spoonful/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day01/01-github/</loc>
+    <loc>/collection/day02/01-github/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/collection/prework/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day01/</loc>
-    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/collection/day01/02-postcards/</loc>
+    <loc>/collection/day02/02-postcards/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/spoonful-series/02-spoonful/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day02/02-blogdown/</loc>
+    <loc>/collection/day01/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/day03/02-blogdown/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/collection/day02/</loc>
-    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/spoonful-series/03-spoonful/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day01/03-distill/</loc>
+    <loc>/collection/day02/03-distill/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/collection/day02/03-blogdown/</loc>
+    <loc>/collection/day03/03-blogdown/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collection/day03/</loc>
+    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>

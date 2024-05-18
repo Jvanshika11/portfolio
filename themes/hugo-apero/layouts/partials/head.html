@@ -1,7 +1,6 @@
 <head>
   {{ partial "meta.html" . }}
   {{ template "_internal/schema.html" . }}
-  {{ template "_internal/google_analytics.html" . }}
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYMX3MQQXZ"></script>
 <script>
@@ -32,6 +31,10 @@
   <script src="{{ $mainJs.RelPermalink }}" type="text/javascript"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <style>
   .typing-container {
       display: flex;
@@ -52,26 +55,38 @@
       margin-left: 8px;
       animation: blink .6s linear infinite alternate;
 }
-
     .container {
-        display: flex;
-    }
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+}
 
-    .first-div, .second-div {
-        padding: 10px; /* Adjust padding as needed */
-    }
+.first-div, .second-div {
+  padding: 10px; /* Adjust padding as needed */
+}
 
-    .first-div {
-        flex: 3;
-       
-    }
+/* For laptops (3:1 ratio) */
+@media only screen and (min-width: 1024px) { /* Adjust the breakpoint for laptops */
+  .first-div {
+    flex: 75%; /* 75% width for first div */
+  }
 
-    .second-div {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .second-div {
+    flex: 25%; /* 25% width for second div */
+  }
+}
+
+
+/* For smaller screens (both divs in different lines taking full width) */
+@media only screen and (max-width: 1023px) { /* Adjust the breakpoint for smaller screens */
+  .first-div, .second-div {
+    flex: 100%; /* Full width for both divs */
+  }
+
+  .second-div img {
+    display: none; /* Hide the first button in the second div */
+  }
+}
+
 </style>
 <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 </head>

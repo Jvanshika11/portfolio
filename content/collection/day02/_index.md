@@ -1,14 +1,14 @@
 ---
-title: "Day 02"
+title: "Software Developer"
 # list or single layouts are possible
 layout: single-series # list, list-sidebar, single-series
 show_post_thumbnail: true
 weight: 3
 publishDate: 2021-01-22
-date: 2021-01-26
-subtitle: "All about Day 02 of 'Introduce Yourself Online'."
+date: 2021-01-25
+subtitle: "All about Day 01 of 'Introduce Yourself Online'."
 description: |
-  day two
+  Our first day together is all about building and publishing.
 excerpt: 
 author: Alison Hill
 show_post_thumbnail: true
